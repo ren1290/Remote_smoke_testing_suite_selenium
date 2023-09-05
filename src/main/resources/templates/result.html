@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Submitted Values</title> 
+    <link th:href = "@{/css/styles.css}" rel="stylesheet">
+</head>
+<body>
+<h2 class="form-heading"><b>Test completed successfully</b></h2>
+<h4 class="form-sub-heading"><b>Please find the below results</b></h4>
+<div class="online-form">
+<p><b>URL Submitted: </b><span th:text="${result.url}"></span></p>
+<p><b>Browsers Selected: </b><span th:text="${result.browsers}"></span></p>
+<p th:if="${isElement}">The expected element is available on the page.</p>
+<p th:unless="${isElement}">The expected element is not available on the page.</p>
+</div>
+</body>
+</html>

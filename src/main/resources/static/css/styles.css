@@ -1,0 +1,109 @@
+body{ 
+	background-color: #013eff1c;
+    font-family: math;
+    color: dimgrey;
+}
+
+.form-heading {
+	text-align: center;
+    font-family: math;
+    color: dimgrey;
+    font-size: xxx-large;
+}
+
+.modal-form-heading {
+	text-align: center;
+    font-family: math;
+    color: dimgrey;
+    font-size: x-large;
+}
+
+.form-sub-heading {
+	text-align: center;
+    font-family: math;
+    color: dimgrey;
+    font-size: xx-large;
+}
+
+.modal-form-sub-heading {
+	text-align: center;
+    font-family: math;
+    color: dimgrey;
+    font-size: large;
+}
+
+
+.online-form {
+	border: 3px solid dimgrey;
+    width: 30%;
+    padding: 25px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.url-field {
+	width : auto;
+	padding: 10px;
+	margin-bottom:10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.submit-button { 
+	display:block;
+	width: auto;
+	padding: 10px 20px 10px 20px;
+	background-color: #24262785;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	margin: 20px;
+}
+
+.submit-button:hover {
+	background-color: #55595b85;
+}
+
+.error { 
+    	color : red;
+  }
+  
+  /* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
